@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="portafolio,programador,front-end,back-end">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>AlfreditoSite</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
+                    aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nav">
+                    <div class="navbar-nav container align-items-center text-center">
+                        <div class="col-2">
+                        <a href="#welcome-section" class="nav-link text-light" aria-current="page">Inicio</a>
+                        </div>
+                        <div class="col-2">
+                        <a href="#proyects" class="nav-link text-light ">Proyectos</a>
+                    </div>
+                        <div class="col-2">
+                        <a href="#skills" class="nav-link text-light">Skill</a>
+                    </div>
+                        <div class="col-2">
+                        <a href="#contacto" class="nav-link text-light">Contactos</a>
+                    </div>
+                        <div class="col-3">
+                        <a href="pdf/Alfredo_Segura_Vara.pdf" class="nav-link active text-light" download
+                            class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                fill="currentColor" class="bi bi-file-earmark-arrow-down" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.5 6.5a.5.5 0 0 0-1 0v3.793L6.354 9.146a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 10.293V6.5z" />
+                                <path
+                                    d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z" />
+                            </svg>Curriculum</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main id="main" class="id">
+            <section id="welcome-section" class="row">
+                <div  class="cont-img col-6 mt-3 mb-3 ">
+               <img src="img/img-alfredo-segura.jpg" alt="image de alfredo segura medio cuerpo" id="img-perfil" srcset="">
+                    </div>
+                <div class="col-md-6 col-xs-12 align-self-center d-inline-flex">                    
+                    <div >
+                    <h1 >Programador Front-end & Back-end Jr</h1>
+                    <p>Soy Alfredo Segura Vara tengo 30 años.
+                        En los últimos años mi experiencia laboral fue en el área de tecnología, desempeñando labores
+                        como auxiliar administrativo y soporte técnico.<br><br>
+                        La tecnología y la programación es mi pasión, por lo cual me capacito y actualizo de forma
+                        constante en estas áreas.<br><br>
+                        He tomado cursos para formar mi perfil como back-end & front-end developer<br><br>
+                        A inicios de este año decido continuar mis estudios ingresando en modalidad online en la
+                        universidad UVEG en la Ingeniería en Sistemas Computacionales.
+                    </p>
+                </div>
+                </div>
+            </section>
+            <!--AREA DE PROYECTOS------------>
+            <hr>
+            <section id="proyects" class="row mb-5">
+                <h2 class="titulo-proyectos mb-5">PROYECTOS</h2>
+                <div class="project-title col-4" >
+                    <div class="proyect-img">
+                        <a href="https://www.facebook.com/SukarneErmitaSantaMartha/videos/566722393781952"><img
+                                src="img/imagen-video-sukarne.jpg" alt="image-prueba" class="img-proyect"></a>
+                    </div>
+                    <a href="#"></a>
+                    <p>SUKARNE SANTAMARTHA</p>
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#detalles">
+                        Detalles
+                      </button>
+
+                </div>
+                <div class="project-title col-4">
+                    <div class="proyect-img">
+                        <a href="https://play.google.com/store/apps/details?id=com.AlfredoSeguraGames.SeguraGames"><img
+                                src="img/imagen-juego-vizper-demo.jpg" alt="image-prueba" class="img-proyect"></a>
+                    </div>
+                    <a href="#"></a>
+                    <p>VIZPER-DEMO</p>
+                    <span class="detalles" id="btn-detalles">Detalles</span>
+                </div>
+                <div class="project-title col-4">
+                    <div class="proyect-img">
+                        <a href="#"><img src="img/imagen-juego-vizper-demo.jpg" alt="image-prueba"
+                                class="img-proyect"></a>
+                    </div>
+                    <a href="#"></a>
+                    <p>CRUD</p>
+                    <span class="detalles">Detalles</span>
+                </div>
+            </section>
+            <section class="skill row mb-3" id="skills">
+                <hr>
+                <h2 class="titulo-proyectos">SKILL</h2>
+                <section class="tarjet-skill">
+                    <div class="cont-skill-img">
+                        <i class="fab fa-html5 img-skill"></i>
+                    </div>
+                    <h6>HTML</h6>
+                    <span>Nivel Medio-avanzado</span>
+                </section>
+                <section class="tarjet-skill">
+                    <div class="cont-skill-img">
+                        <i class="fab fa-css3-alt img-skill"></i>
+                    </div>
+                    <h6>CSS</h6>
+                    <span>Nivel Medio</span>
+                </section>
+                <section class="tarjet-skill">
+                    <div class="cont-skill-img">
+                        <i class="fab fa-node-js img-skill"></i>
+                    </div>
+                    <h6>JS</h6>
+                    <span>Nivel Medio</span>
+                </section>
+                <section class="tarjet-skill">
+                    <div class="cont-skill-img">
+                        <i class="fab fa-bootstrap img-skill"></i>
+                    </div>
+                    <h6>BOOSTRAP</h6>
+                    <span>Nivel Basico</span>
+                </section>
+                <section class="tarjet-skill">
+                    <div class="cont-skill-img">
+                        <i class="fab fa-php img-skill"></i>
+                    </div>
+                    <h6>PHP</h6>
+                    <span>Nivel pre-intermedio</span>
+                </section>
+                <section class="tarjet-skill">
+                    <div class="cont-skill-img">
+                        <i class="fas fa-database img-skill"></i>
+                    </div>
+                    <h6>MYSQL</h6>
+                    <span>Nivel pre-intermedio</span>
+                </section>
+                <section class="tarjet-skill">
+                    <div class="cont-skill-img">
+                        <i class="fas fa-vector-square img-skill"></i>
+                    </div>
+                    <h6>ILUSTRATOR</h6>
+                    <span>Nivel Medio</span>
+                </section>
+                <section class="tarjet-skill">
+                    <div class="cont-skill-img">
+                        <i class="fas fa-images img-skill"></i>
+                    </div>
+                    <h6>PHOTOSHOP</h6>
+                    <span>Nivel Medio</span>
+                </section>
+            </section>
+            <hr>
+        </main>
+        <footer class="contactos row mb-3">
+            <section id="contacto">
+                <h2>Contactos</h2>
+                <a href="http://www.linkedin.com/in/alfredoseguravara"><i class="fab fa-linkedin icon-contacto"></i></a>
+                <a href="mailto:pixxo2010@gmial.com" mailto><i class="fas fa-envelope icon-contacto"></i></a>
+    </div>
+    </section>
+    <hr>
+    <section id="autor">
+        &COPY;Alfredo Segura Vara
+    </section>
+    <section id="soporte">
+    </section>
+    </footer>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="detalles" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Understood</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Scripts-->>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+        <script src="js/funciones.js"></script>
+</body>
+</html>
