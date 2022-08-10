@@ -118,53 +118,7 @@ body {
 }
 
 /*---------Keyframes-------*/
-@keyframes btn-animacion {
-    100% {
-        background-color: #038fc2;
-    }
-}
-@keyframes d-x {
-    100% {
-        transform: rotate(40deg) translatex(35px) translateY(15px);
-    }
-}
-@keyframes i-x {
-    100% {
-        transform: rotate(-45deg) translateX(-25px) translateY(-5px);
-    }
-}
-@keyframes b-x {
-    100% {
-        width: 0px;
-    }
-}
-@keyframes out-d-x {
-    100% {
-        transform: rotate(0deg) translatex(0px) translateY(0px);
-    }
-}
-@keyframes out-i-x {
-    100% {
-        transform: rotate(0deg) translateX(0px) translateY(0px);
-    }
-}
-@keyframes out-b-x {
-    100% {
-        width: 60px;
-    }
-}
-@keyframes anim-cont-text {
-    100% {
-        opacity: 1;
-        transform: translatey(200px);
-    }
-}
-@keyframes anim-img {
-    100% {
-        opacity: 1;
-        transform: translatey(150px);
-    }
-}
+
 @keyframes anim-img-proeyect {
     100% {
         opacity: 1;
