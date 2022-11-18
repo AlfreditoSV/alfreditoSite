@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.fa-brands, .fa-solid {
+  font-size: 4em;
+}
+
+.fa-html5 {
+  color: orange;
+}
+
+.fa-css3-alt {
+  color: blue;
+}
+
+.fa-js {
+  color: #F0DB4F;
+}
+
+.fa-bootstrap {
+  color: #673ab7;
+}
+
+.fa-php {
+  color: #8993be;
+}
+
+.fa-database {
+  color: #748cf4;
+}
+
+.fa-github {
+  color: #f34f29;
+}
+
+.fa-bezier-curve {
+  color: #f17b62;
+}
+
+.fa-camera {
+  color: #1070ca;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.cont-bar-progres {
+  margin: auto auto;
+  width: 50%;
+}
+.cont-bar-progres .bar-progres-back {
+  outline-color: #00ABE7;
+  background-color: #969696;
+  width: 100%;
+  height: 10px;
+  border-radius: 1em;
+}
+.cont-bar-progres .bar-progres-back .bar-progres-int {
+  width: 0%;
+  height: 10px;
+  border-radius: 1em;
+  -webkit-animation: anim-bar-progress ease 1.5s both;
+          animation: anim-bar-progress ease 1.5s both;
+}
+.cont-bar-progres .bar-progres-back .html {
+  background-color: orange;
+}
+.cont-bar-progres .bar-progres-back .css {
+  background-color: blue;
+}
+.cont-bar-progres .bar-progres-back .js {
+  background-color: #F0DB4F;
+}
+.cont-bar-progres .bar-progres-back .bootstrap {
+  background-color: #673ab7;
+}
+.cont-bar-progres .bar-progres-back .php {
+  background-color: #8993be;
+}
+.cont-bar-progres .bar-progres-back .sql {
+  background-color: #748cf4;
+}
+.cont-bar-progres .bar-progres-back .git {
+  background-color: #f34f29;
+  -webkit-animation: anim-bar-basic-progress ease 1.5s both;
+          animation: anim-bar-basic-progress ease 1.5s both;
+}
+.cont-bar-progres .bar-progres-back .illustrator {
+  background-color: #f17b62;
+}
+.cont-bar-progres .bar-progres-back .photoshop {
+  background-color: #1070ca;
+}
+
+@-webkit-keyframes anim-bar-progress {
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes anim-bar-progress {
+  100% {
+    width: 50%;
+  }
+}
+@-webkit-keyframes anim-bar-basic-progress {
+  100% {
+    width: 20%;
+  }
+}
+@keyframes anim-bar-basic-progress {
+  100% {
+    width: 20%;
+  }
+}/*# sourceMappingURL=estilos_skill.css.map */
